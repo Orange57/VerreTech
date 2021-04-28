@@ -2,7 +2,7 @@
   <div id="app">
     <Navbar/>
     <HelloWorld msg="Bienvenue sur le projet Verre-Tech"/>
-    <Home titre1="Produits vedettes" titre2="Nouveautés"/>
+    <Home titre1="Produits vedettes" titre2="Nos nouveautés"/>
     <Footer/>
   </div>
 </template>

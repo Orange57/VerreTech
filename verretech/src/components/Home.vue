@@ -18,7 +18,7 @@
     <div class="text-4xl font-bold">
         <h1>{{ titre2 }}</h1>
         <div class="grid grid-cols-3 gap-4">
-            <div>Arbor</div>
+            <div>Arbor </div>
             <div>Echo</div>
             <div>Filae</div>
         </div>
