@@ -34,7 +34,8 @@
           </div>
           <div class="hidden sm:block sm:ml-20">
             <div class="flex space-x-4 ">
-              <!-- Current: "bg-gray-900 text-white", Default: "text-gray-700 hover:bg-gray-900 hover:text-white" -->
+              
+              <!-- SearchBar -->
               <div class="relative mx-auto text-gray-600">
                 <input class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
                   type="search" name="search" placeholder="Search">
@@ -49,6 +50,7 @@
                 </button>
               </div>
 
+              <!-- Current: "bg-gray-900 text-white", Default: "text-gray-700 hover:bg-gray-900 hover:text-white" -->
               <a href="#" class="bg-gray-400 text-gray-700 font-bold px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Paroi de douche</a>
 
               <a href="#" class="text-gray-700 hover:bg-gray-900 font-bold hover:text-white px-3 py-2 rounded-md text-sm font-medium">Crédence cuisine</a>
