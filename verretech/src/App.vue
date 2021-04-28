@@ -2,18 +2,21 @@
   <div id="app">
     <Navbar/>
     <HelloWorld msg="Bienvenue sur le projet Verre-Tech"/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Navbar
+    Navbar,
+    Footer
   }
 }
 </script>
