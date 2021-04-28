@@ -2,6 +2,7 @@
   <div id="app">
     <Navbar/>
     <HelloWorld msg="Bienvenue sur le projet Verre-Tech"/>
+    <Home titre1="Produits vedettes" titre2="Nouveautés"/>
     <Footer/>
   </div>
 </template>
@@ -10,13 +11,15 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Navbar from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
+import Home from './components/Home.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     Navbar,
-    Footer
+    Footer,
+    Home
   }
 }
 </script>
