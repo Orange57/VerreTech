@@ -1,7 +1,3 @@
-matrix:
-  include:
-    - language: php
-    - language: node.js
-      node_js:
-      -14
-      before_install: yarn
+language: node_js
+node_js:
+  - 14
